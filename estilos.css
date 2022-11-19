@@ -1,77 +1,61 @@
-html{
-    width: 100vw;
+@media (max-width: 720px){
+
+    .diamesaño{
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    body{
+    background: linear-gradient(125deg, #222058 45%, #ef2252 59%);
+    
 }
+}   
+
 
 body{
     background: linear-gradient(125deg, #222058 45%, #ef2252 59%);
-    height: 100vh;
-    width: 100vw;
-}
-
-.Fecha-año{
-    color:aliceblue;
+    height: 90vh;
+    width: 98vw;
 }
 
 
-.fecha{
+.container{
     
-    font-family: 'Montserrat', sans-serif, solid;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 50vh;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(26, 17, 58, 0.979);
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 50px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.diamesaño{
+    color: whitesmoke;
+    font-size: 50px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    letter-spacing: 2px;
+    align-items:center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .reloj{
-    color: aliceblue;
-    font-family: 'Montserrat', sans-serif , solid;
-    font-size: 75px;
+    
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-flex;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: -30px;
-    
-    
 }
 
-.container{
-   
-    margin-top: 100px;
-    margin-right: 150px;
-    margin-left:150px;
-    padding: 30px;
-    border-radius: 50px;
-    box-shadow:  0px 0px 10px #312c69,
-             0px 0px 50px #f36565;
-    min-width: 300px;
+.calendario{
+    padding: 10px;
 }
 
-.diaSemana{
-    
-    font-size: 50px;
-    padding: 5px;
-}
-
-.dia{
-    
-    font-size: 50px;
-    padding: 5px;
-}
-
-.mes{
-    
-    font-size: 50px;
-    padding: 5px;
-}
-
-.de{
-   
-    font-size: 50px;
-    padding: 5px;
-}
-
-.year{
-   
-    font-size: 50px;
-    padding: 5px;
+.hs{
+    margin-top: -15px;
 }

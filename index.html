@@ -6,72 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reloj Digital ⏰</title>
     <link rel="stylesheet" href="estilos.css">
-    <style>
-        @media screen and (min-width:200px) {
-            body{
-                height: 100vh;
-                width: 100vw;
-                font-size: 15px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .container{
-                
-                margin: 200px;
-                padding: 10px;
-            }
-
-            .reloj{
-                font-size: 50px;
-            }
-
-            .diaSemana{
-                font-size: 30px;
-            }
-
-            .dia{
-                font-size:30px;
-            }
-
-            .mes{
-                font-size: 30px;
-            }
-
-            .de{
-                font-size: 30px;
-            }
-
-            .year{
-                font-size: 30px ;
-            }
-        }
-    </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="Fecha-año">
-            <div class="fecha">
-                <p id="diaSemana" class="diaSemana"></p>
-                <p id="dia" class="dia"></p>
-                <p class="de">de</p>
-                <p id="mes" class="mes"></p>
-                <p class="de">de</p>
-                <p id="year" class="year"></p>
-            </div>
-        </div>
-            <div class="reloj">
-                <p id="horas" class="horas"></p>
-                <p>:</p>
-                <p id="minutos" class="minutos"></p>
-                <p>:</p>
-                    <p id="segundos" class="segundos"></p>
-                    <p id="ampm" class="ampm"></p>
-                
-            </div>
         
+          <div class="diamesaño">
+            <p id="diaSemana" class="calendario"></p>
+            <p id="dia" class="calendario"></p>
+            <p class="de">de</p>
+            <p id="mes" class="calendario"></p>
+            <p class="de">de</p>
+            <p id="year" class="calendario"></p>
+          </div>
+            
+        
+           <div class="reloj">
+             <p id="horas" class="hs"></p>
+             <p class="hs">:</p>
+             <p id="minutos" class="hs"></p>
+             <p class="hs">:</p>
+             <p id="segundos" class="hs"></p>
+             <p id="ampm" class="hs"></p>
+           </div> 
     </div>
 <script src="reloj.js"></script>
 </body>
